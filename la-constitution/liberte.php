@@ -18,11 +18,11 @@ session_start();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">DDHC-GAME</a>
+          <a class="navbar-brand" href="/index.php">DDHC-GAME</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">DDHC-GAME</a></li>
+            <li class="active"><a href="/index.php">DDHC-GAME</a></li>
             <li><a href="../nous-contacter.php">Nous Contacter</a></li>
             <li><a href="../a-propos.php">A Propos</a></li>
 			<li class="dropdown">
