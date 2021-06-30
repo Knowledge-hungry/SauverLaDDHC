@@ -10,7 +10,7 @@ session_start();
 </head>
 <body>
   <script>
-    def ShowMessage(){
+    function ShowMessage(){
       alert("Indice trouvé !");
     }
   </script>
