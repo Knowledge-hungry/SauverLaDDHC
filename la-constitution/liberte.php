@@ -52,7 +52,8 @@ session_start();
           <?php
           if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['1'] = 1;}?>
           <p>INDICE ARTICLE 3</p>
-          <p>La souveraineté se définit, en droit, comme la détention de l’autorité suprême, c’est-à-dire d’un pouvoir absolu (dont tous dépendent) et inconditionné (qui ne dépend de qui que ce soit). Dans les régimes<form id="FormWithALink1" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+          <form id="FormWithALink1" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+          <p>La souveraineté se définit, en droit, comme la détention de l’autorité suprême, c’est-à-dire d’un pouvoir absolu (dont tous dépendent) et inconditionné (qui ne dépend de qui que ce soit). Dans les régimes
               <a href="javascript:;" onclick="document.getElementById('FormWithALink1').submit();"> despotiques</a>, la souveraineté est le plus souvent détenue par un seul homme. Dans les démocraties, elle est détenue par le peuple, constitué en un corps politique, la Nation : on parle dès lors de souveraineté nationale. Dans ce cadre, la souveraineté ne peut être exercée par un despote, ni divisée entre plusieurs fractions du peuple : elle est détenue par un être collectif et indivisible, distinct des individus qui la composent. Mais les contraintes de l’exercice du pouvoir impliquent que cette souveraineté soit déléguée : le peuple, bien que constitué en corps politique, ne peut en effet délibérer directement sur les affaires publiques. Cette mission est donc confiée à des représentants élus, dont les décisions constituent l’expression de la volonté générale.</p>
             <input type="hidden" name="SubmitHidden1"/>
           </form>
