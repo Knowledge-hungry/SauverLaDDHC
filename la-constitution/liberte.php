@@ -44,9 +44,8 @@ session_start();
 	     <div class="starter-template">
 	        <h1>Bootstrap starter template</h1>
           <p>INDICE ARTICLE 2</p>
-          <p>La protection de la vie privée a été affirmée en 1948 par la
-            <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-              <a href="javascript:;" onclick="document.getElementById('FormWithALink0').submit();">déclaration universelle des droits de l’Homme des Nations Unies</a> (art 12)
+          <p>La protection de la vie privée a été affirmée en 1948 par la<form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+              <a href="javascript:;" onclick="document.getElementById('FormWithALink0').submit();"> déclaration universelle des droits de l’Homme des Nations Unies</a> (art 12)
             « Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes. »</p>
             <input type="hidden" name="SubmitHidden0"/>
           </form>
