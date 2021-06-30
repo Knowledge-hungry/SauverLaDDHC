@@ -1,6 +1,7 @@
 <?php
 // begin the session
 session_start();
+$SCORE_USER=0;
 $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l'utilité commune.",
 		               "Art. 2. Le but de toute association politique est la conservation des droits naturels et imprescriptibles de l'Homme. Ces droits sont la liberté, la propriété, la sûreté, et la résistance à l'oppression.",
 									 "Art. 3. Le principe de toute Souveraineté réside essentiellement dans la Nation. Nul corps, nul individu ne peut exercer d'autorité qui n'en émane expressément.",
@@ -77,9 +78,11 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 					    //echo 'The value of $_SESSION['."'".$key."'".'] is '."'".$value."'".' <br />';
 							if($value == 1){
 								echo '<p class="lead">'.$DDHCARTICLE[$key].'</p><br>';
+								$SCORE_USER += 1;
 							}
 					  }
 					}
+					echo '<p>SCORE : '.$SCORE_USER.'/17</p>'
 					?>
 	      </div>
 </div>
