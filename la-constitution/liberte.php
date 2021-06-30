@@ -52,6 +52,12 @@ session_start();
             $_SESSION['ddhc_user']['0'] = 1;
           }
           ?>
+          <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+            <a href="javascript:;" onclick="document.getElementById('FormWithALink0').submit();">Clique sur moi pour débloquer article 4</a>
+            <input type="hidden" name="SubmitHidden0"/>
+          </form>
+          <?php
+          if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['3'] = 1;}?>
       </div>
 </div>
 <script src="../js/jquery.min.js"></script>
