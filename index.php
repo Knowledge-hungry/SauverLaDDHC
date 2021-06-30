@@ -23,7 +23,8 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 <html>
 <head>
   <title>ACCUEIL</title>
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/starter-template.css">
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -72,8 +73,8 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 					?>
 	      </div>
 </div>
-<script src="/js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
