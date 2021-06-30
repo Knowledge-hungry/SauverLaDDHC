@@ -5,6 +5,7 @@ session_start();
 <html>
 <head>
   <title>DDHC-GAME : Article 1</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
   <p>Si tu as lu le texte clique sur le bouton</p>
@@ -16,5 +17,8 @@ session_start();
      $_SESSION['ddhc_user']['0'] = 1;
   }
 ?>
+<script src="/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>

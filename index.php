@@ -19,24 +19,61 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 									 "Art. 15. La Société a le droit de demander compte à tout Agent public de son administration.",
 									 "Art. 16. Toute Société dans laquelle la garantie des Droits n'est pas assurée, ni la séparation des Pouvoirs déterminée, n'a point de Constitution.",
 								   "Art. 17. La propriété étant un droit inviolable et sacré, nul ne peut en être privé, si ce n'est lorsque la nécessité publique, légalement constatée, l'exige évidemment, et sous la condition d'une juste et préalable indemnité.");
-
-if(isset($_SESSION['ddhc_user']) == FALSE) {
-	  // create an array
-	  $ddhc_complete_user=array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-		// put the array in a session variable
-		$_SESSION['ddhc_user']=$ddhc_complete_user;
-		// a little message to say we have done it
-		//echo 'Putting array into a session variable';
-} else {
-	//$_SESSION['ddhc_user']['0'] = 0;
-	//$_SESSION['ddhc_user']['1'] = 0;
-	//echo $_SESSION['ddhc_user']['0'];
-	foreach($_SESSION['ddhc_user'] as $key=>$value){
-    // and print out the values
-    //echo 'The value of $_SESSION['."'".$key."'".'] is '."'".$value."'".' <br />';
-		if($value == 1){
-			echo $DDHCARTICLE[$key].'<br>';
-		}
-  }
-}
 ?>
+<html>
+<head>
+  <title>ACCUEIL</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<div class="container">
+	      <div class="starter-template">
+	        <h1>Bootstrap starter template</h1>
+					<?php
+					if(isset($_SESSION['ddhc_user']) == FALSE) {
+						  // create an array
+						  $ddhc_complete_user=array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+							// put the array in a session variable
+							$_SESSION['ddhc_user']=$ddhc_complete_user;
+							// a little message to say we have done it
+							//echo 'Putting array into a session variable';
+					} else {
+						//$_SESSION['ddhc_user']['0'] = 0;
+						//$_SESSION['ddhc_user']['1'] = 0;
+						//echo $_SESSION['ddhc_user']['0'];
+						foreach($_SESSION['ddhc_user'] as $key=>$value){
+					    // and print out the values
+					    //echo 'The value of $_SESSION['."'".$key."'".'] is '."'".$value."'".' <br />';
+							if($value == 1){
+								echo '<p class="lead">'.$DDHCARTICLE[$key].'</p><br>';
+							}
+					  }
+					}
+					?>
+	      </div>
+</div>
+<script src="/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
