@@ -43,7 +43,7 @@ session_start();
 <div class="container">
 	     <div class="starter-template">
 	        <h1>Bootstrap starter template</h1>
-          <p>Si tu as lu le texte clique sur le bouton</p>
+          <p>Si tu as lu le texte clique sur le bouton pour débloquer larticle 1</p>
           <form action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
             <input type="submit" name="Submit" value="OK">
           </form>
