@@ -60,6 +60,13 @@ session_start();
           </form>
           <?php
           if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['2'] = 1;}?>
+          <p>INDICE ARTICLE 4</p>
+          <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+          <p>La loi, arbitre de l'exercice de cette liberté <a href="javascript:;" onclick="document.getElementById('FormWithALink2').submit();">individuelle</a>. Les rédacteurs de la déclaration ont fait le choix de confier à la loi le rôle de déterminer les limites à l'exerce de la liberté de l'article 4. Ce choix se place dans l'idéologie politique de l'époque, représentée notamment pas Rousseau et marque aussi encore une fois la volonté d'une liberté égale pour tous. Le choix de la loi se place dans une logique qui se retrouve tout au long de la déclaration de 1789.</p>
+          <input type="hidden" name="SubmitHidden2"/>
+          </form>
+          <?php
+          if (isset($_POST['SubmitHidden2'])) {$_SESSION['ddhc_user']['3'] = 1;}?>
       </div>
 </div>
 <script src="/js/jquery.min.js"></script>
