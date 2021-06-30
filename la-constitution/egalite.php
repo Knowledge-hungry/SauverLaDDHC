@@ -51,7 +51,7 @@ session_start();
           <p>INDICE ARTICLE 1</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.” (Art. 1 de la Déclaration des Droits de l’Homme et du Citoyen). A la relecture de la seconde phrase de cet article, nous avons mesuré à quel point notre projet s’inscrivait dans un principe de justice fondamental. Si les “distinctions sociales” ne sont pas le
-              <a href="javascript:ShowMessage();" onclick="document.getElementById('FormWithALink0').submit();"> reflet </a>
+              <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink0').submit();"> reflet </a>
               d’une contribution à “l’utilité commune”, alors elles sont illégitimes.  En favorisant l’émancipation et la réussite de chacun selon son potentiel et ses aspirations, indépendamment de ses origines et de sa naissance, nous voulons rappeler le sens de cet Article 1, qui pose l’exigence de justice et d’égalité comme le socle préalable de notre modèle républicain.
             </p>
             <input type="hidden" name="SubmitHidden0"/>
