@@ -9,6 +9,11 @@ session_start();
   <link rel="stylesheet" href="/css/starter-template.css">
 </head>
 <body>
+  <script>
+    def ShowMessage(){
+      alert("Indice trouvé !");
+    }
+  </script>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -46,7 +51,7 @@ session_start();
           <p>INDICE ARTICLE 1</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.” (Art. 1 de la Déclaration des Droits de l’Homme et du Citoyen). A la relecture de la seconde phrase de cet article, nous avons mesuré à quel point notre projet s’inscrivait dans un principe de justice fondamental. Si les “distinctions sociales” ne sont pas le
-              <a href="javascript:;" onclick="document.getElementById('FormWithALink0').submit();"> reflet </a>
+              <a href="javascript:ShowMessage();" onclick="document.getElementById('FormWithALink0').submit();"> reflet </a>
               d’une contribution à “l’utilité commune”, alors elles sont illégitimes.  En favorisant l’émancipation et la réussite de chacun selon son potentiel et ses aspirations, indépendamment de ses origines et de sa naissance, nous voulons rappeler le sens de cet Article 1, qui pose l’exigence de justice et d’égalité comme le socle préalable de notre modèle républicain.
             </p>
             <input type="hidden" name="SubmitHidden0"/>
@@ -66,7 +71,7 @@ session_start();
           <p>INDICE ARTICLE 14</p>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Les citoyens peuvent participer à l'élaboration de la loi de finance. Il y a même de quoi se demander, avec cet article, si les citoyens ne seraient pas fondés à refuser de payer une fraction de l'impôt au motif de l'illégalité de l'emploi de certains fonds publics. Par exemple, les habitants d'une municipalité convaincue de corruption peuvent-ils refuser de payer la fraction d'impôts locaux correspondant au
-             <a href="javascript:;" onclick="document.getElementById('FormWithALink2').submit();">pourcentage</a>
+             <a href="javascript:ShowMessage();" onclick="document.getElementById('FormWithALink2').submit();">pourcentage</a>
              des pots-de-vin dans le budget municipal ? N'ont-ils pas, en effet, "le droit [...] d'en déterminer la quotité" ? La phrase ne présente aucune ambiguité.
           </p>
           <input type="hidden" name="SubmitHidden2"/>
@@ -76,8 +81,8 @@ session_start();
           <p>INDICE ARTICLE 16</p>
           <form id="FormWithALink3" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Article d'interprétation difficile : il existe assurément des dictatures qui présentent une "Constitution" écrite - ainsi l'URSS de Staline. Il faut ici entendre "Constitution" au
-             <a href="javascript:;" onclick="document.getElementById('FormWithALink3').submit();">sens</a>
-             de "pouvoir politique légitime". Cet article recevra explication dans le cours sur la justice. 
+             <a href="javascript:ShowMessage();" onclick="document.getElementById('FormWithALink3').submit();">sens</a>
+             de "pouvoir politique légitime". Cet article recevra explication dans le cours sur la justice.
           </p>
           <input type="hidden" name="SubmitHidden3"/>
           </form>
