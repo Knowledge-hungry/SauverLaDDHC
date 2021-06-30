@@ -43,30 +43,15 @@ session_start();
 <div class="container">
 	     <div class="starter-template">
 	        <h1>Bootstrap starter template</h1>
-          <p>Si tu as lu le texte clique sur le bouton pour débloquer larticle 1</p>
-          <form action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-            <input type="submit" name="Submit0" value="OK">
-          </form>
-          <?php
-          if (isset($_POST['Submit0'])) {
-            $_SESSION['ddhc_user']['0'] = 1;
-          }
-          ?>
-          <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-            <a href="javascript:;" onclick="document.getElementById('FormWithALink0').submit();">Clique sur moi pour débloquer article 4</a>
+          <p>INDICE ARTICLE 2</p>
+          <p>La protection de la vie privée a été affirmée en 1948 par la
+            <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+              <a href="javascript:;" onclick="document.getElementById('FormWithALink0').submit();">déclaration universelle des droits de l’Homme des Nations Unies</a> (art 12)
+            « Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes. »</p>
             <input type="hidden" name="SubmitHidden0"/>
           </form>
           <?php
-          if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['3'] = 1;}?>
-          <p>Clique sur l'image pour débloquer l'article 5</p>
-          <form id="FormWithAImage" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-            <a href="javascript:;" onclick="document.getElementById('FormWithAImage').submit();">
-                <img border="0" alt="Socrate el kinger" src="/img/socrate.png" width="100" height="100">
-            </a>
-            <input type="hidden" name="SubmitHidden1"/>
-          </form>
-          <?php
-          if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['4'] = 1;}?>
+          if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['1'] = 1;}?>
       </div>
 </div>
 <script src="/js/jquery.min.js"></script>
