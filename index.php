@@ -24,7 +24,7 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 <head>
   <title>ACCUEIL</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/starter-template.css">
+  <link rel="stylesheet" href="css/starter-template.css">
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -36,13 +36,24 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">DDHC-GAME</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#">DDHC-GAME</a></li>
+            <li><a href="nous-contacter.php">Nous Contacter</a></li>
+            <li><a href="a-propos.php">A Propos</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Notre Constitution
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="la-constitution/liberte.php">Liberté</a></li>
+					<li><a href="la-constitution/egalite.php">Égalité</a></li>
+					<li><a href="la-constitution/fraternite.php">Fraternité</a></li>
+					<li><a href="la-constitution/propriete.php">Propriété</a></li>
+					<li><a href="la-constitution/libre-echange.php">Libre-Échange</a></li>
+				</ul>
+			</li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
