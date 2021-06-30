@@ -1,6 +1,5 @@
 <?php
 session_start();
-// Si le tableau $_POST existe alors le formulaire a été envoyé
 ?>
 <html>
 <head>
