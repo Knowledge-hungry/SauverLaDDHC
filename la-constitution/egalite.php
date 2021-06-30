@@ -67,12 +67,22 @@ session_start();
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Les citoyens peuvent participer à l'élaboration de la loi de finance. Il y a même de quoi se demander, avec cet article, si les citoyens ne seraient pas fondés à refuser de payer une fraction de l'impôt au motif de l'illégalité de l'emploi de certains fonds publics. Par exemple, les habitants d'une municipalité convaincue de corruption peuvent-ils refuser de payer la fraction d'impôts locaux correspondant au
              <a href="javascript:;" onclick="document.getElementById('FormWithALink2').submit();">pourcentage</a>
-             des pots-de-vin dans le budget municipal ? N'ont-ils pas, en effet, "le droit [...] d'en déterminer la quotité" ? La phrase ne présente aucune ambiguité. 
+             des pots-de-vin dans le budget municipal ? N'ont-ils pas, en effet, "le droit [...] d'en déterminer la quotité" ? La phrase ne présente aucune ambiguité.
           </p>
           <input type="hidden" name="SubmitHidden2"/>
           </form>
           <?php
           if (isset($_POST['SubmitHidden2'])) {$_SESSION['ddhc_user']['13'] = 1;}?>
+          <p>INDICE ARTICLE 16</p>
+          <form id="FormWithALink3" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+          <p>Article d'interprétation difficile : il existe assurément des dictatures qui présentent une "Constitution" écrite - ainsi l'URSS de Staline. Il faut ici entendre "Constitution" au
+             <a href="javascript:;" onclick="document.getElementById('FormWithALink3').submit();">sens</a>
+             de "pouvoir politique légitime". Cet article recevra explication dans le cours sur la justice. 
+          </p>
+          <input type="hidden" name="SubmitHidden3"/>
+          </form>
+          <?php
+          if (isset($_POST['SubmitHidden3'])) {$_SESSION['ddhc_user']['15'] = 1;}?>
       </div>
 </div>
 <script src="/js/jquery.min.js"></script>
