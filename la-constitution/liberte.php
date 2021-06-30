@@ -45,10 +45,10 @@ session_start();
 	        <h1>Bootstrap starter template</h1>
           <p>Si tu as lu le texte clique sur le bouton pour débloquer larticle 1</p>
           <form action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-            <input type="submit" name="Submit" value="OK">
+            <input type="submit" name="Submit0" value="OK">
           </form>
           <?php
-          if (isset($_POST['Submit'])) {
+          if (isset($_POST['Submit0'])) {
             $_SESSION['ddhc_user']['0'] = 1;
           }
           ?>
