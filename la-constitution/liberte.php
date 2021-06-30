@@ -5,8 +5,8 @@ session_start();
 <html>
 <head>
   <title>ACCUEIL</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/starter-template.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/starter-template.css">
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -23,17 +23,17 @@ session_start();
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">DDHC-GAME</a></li>
-            <li><a href="nous-contacter.php">Nous Contacter</a></li>
-            <li><a href="a-propos.php">A Propos</a></li>
+            <li><a href="../nous-contacter.php">Nous Contacter</a></li>
+            <li><a href="../a-propos.php">A Propos</a></li>
 			<li class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Notre Constitution
 				<span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="la-constitution/liberte.php">Liberté</a></li>
-					<li><a href="la-constitution/egalite.php">Égalité</a></li>
-					<li><a href="la-constitution/fraternite.php">Fraternité</a></li>
-					<li><a href="la-constitution/propriete.php">Propriété</a></li>
-					<li><a href="la-constitution/libre-echange.php">Libre-Échange</a></li>
+					<li><a href="../la-constitution/liberte.php">Liberté</a></li>
+					<li><a href="../la-constitution/egalite.php">Égalité</a></li>
+					<li><a href="../la-constitution/fraternite.php">Fraternité</a></li>
+					<li><a href="../la-constitution/propriete.php">Propriété</a></li>
+					<li><a href="../la-constitution/libre-echange.php">Libre-Échange</a></li>
 				</ul>
 			</li>
           </ul>
@@ -54,8 +54,8 @@ session_start();
           ?>
       </div>
 </div>
-<script src="js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
