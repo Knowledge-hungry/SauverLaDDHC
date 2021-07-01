@@ -2,6 +2,7 @@
 // begin the session
 session_start();
 $SCORE_USER=0;
+$HAS_WIN=0;
 $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur l'utilité commune.",
 		               "Art. 2. Le but de toute association politique est la conservation des droits naturels et imprescriptibles de l'Homme. Ces droits sont la liberté, la propriété, la sûreté, et la résistance à l'oppression.",
 									 "Art. 3. Le principe de toute Souveraineté réside essentiellement dans la Nation. Nul corps, nul individu ne peut exercer d'autorité qui n'en émane expressément.",
@@ -66,6 +67,8 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 					<p class="lead">Nous sommes en 1780 et la révolution fait rage. Les Lumières tente en vain d'éclairer le monde, mais ils ont perdus les fragments de la lumière.</p>
 					<p class="lead">Tentez de retrouver les fragments de la Déclaration des Droits de l'Homme et du Citoyen pour retrouver la lumière et terminer la révolution.</p>
 					<p>Bonne Chance !</p>
+				</div>
+			</div>
 					<?php
 					if(isset($_SESSION['ddhc_user']) == FALSE) {
 						  // create an array
@@ -84,13 +87,20 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 							if($value == 1){
 								echo '<p style="border-style: double;">'.$DDHCARTICLE[$key].'</p><br>';
 								$SCORE_USER += 1;
+
 							}
 					  }
+						if($SCORE_USER == 17){
+							$HAS_WIN = 1;
+						}
 					}
 					echo '<p>Vous avez trouvé : '.$SCORE_USER.'/17 amendements</p>'
 					?>
-	      </div>
-			</div>
+	        <?php
+					if($HAS_WIN == 1){
+						echo "<script>alert("Bravo tu a réussis à retrouver tous les fragments !")</script>"
+					}
+					 ?>
 		</div>
 </div>
 <script src="js/jquery.min.js"></script>
