@@ -82,7 +82,7 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 							}
 					  }
 					}
-					echo '<div class="row mb-3"><p>Vous avez trouvé : '.$SCORE_USER.'/17 amendements</p></div>'
+					echo '<p style="border-style: double;">Vous avez trouvé : '.$SCORE_USER.'/17 amendements</p>'
 					?>
 	      </div>
 </div>
