@@ -69,6 +69,33 @@ $DDHCARTICLE= array("Art. 1. Les hommes naissent et demeurent libres et égaux e
 					<p class="lead">Tentez de retrouver les fragments de la Déclaration des Droits de l'Homme et du Citoyen pour retrouver la lumière et terminer la révolution.</p>
 					<p>Bonne Chance !</p>
 				</div>
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+
+				  <!-- Modal content -->
+				  <div class="modal-content">
+				    <span class="close">&times;</span>
+				    <h1>Bravo ! Tu as réussis !</h1>
+				  </div>
+
+				</div>
+				<script>
+				// Get the modal
+				var modal = document.getElementById("myModal");
+				var btn = document.getElementById("myBtn");
+				var span = document.getElementsByClassName("close")[0];
+				function YouHaveWin() {
+				  modal.style.display = "block";
+				}
+				span.onclick = function() {
+				  modal.style.display = "none";
+				}
+				window.onclick = function(event) {
+				  if (event.target == modal) {
+				    modal.style.display = "none";
+				  }
+				}
+				</script>
 			</div>
 					<?php
 					if(isset($_SESSION['ddhc_user']) == FALSE) {
@@ -104,38 +131,12 @@ $DDHCARTICLE= array("Art. 1. Les hommes naissent et demeurent libres et égaux e
 					 ?>
 		</div>
 </div>
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h1>Bravo ! Tu as réussis !</h1>
-  </div>
-
-</div>
 <script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
-function YouHaveWin() {
-  modal.style.display = "block";
-}
-span.onclick = function() {
-  modal.style.display = "none";
-}
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
+
 <script>
 $(function() {
 	var numberOfStars = 33;
