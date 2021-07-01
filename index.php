@@ -26,6 +26,7 @@ $DDHCARTICLE= array("Art. 1. Les hommes naissent et demeurent libres et égaux e
   <title>ACCUEIL</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/starter-template.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
