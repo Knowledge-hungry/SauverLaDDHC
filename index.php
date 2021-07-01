@@ -116,6 +116,8 @@ $DDHCARTICLE= array("Art. 1. Les hommes naissent et demeurent libres et égaux e
 <script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 <script>
 // Get the modal
 var modal = document.getElementById("myModal");
