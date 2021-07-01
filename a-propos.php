@@ -17,11 +17,11 @@ session_start();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">DDHC-GAME</a>
+          <a class="navbar-brand" href="/index.php">DDHC-GAME</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">DDHC-GAME</a></li>
+            <li class="active"><a href="/index.php">DDHC-GAME</a></li>
             <li><a href="nous-contacter.php">Nous Contacter</a></li>
             <li><a href="a-propos.php">A Propos</a></li>
 			<li class="dropdown">
@@ -42,7 +42,9 @@ session_start();
 <div class="container">
 	      <div class="starter-template">
 	        <h1>Bootstrap starter template</h1>
-          <p class="lead">Sauver la DDHC est votre source incontournable d’articles de lois concernant sur la DDHC, avec une touche d'originalité en plus. Nous souhaitons inspirer nos clients à tout d’abord respecter ces lois et les suivent à la lettre, avoir plus confiance en eux en connaissant les règles de vie et à se sentir bien, dans ce nouveau monde. Nous sommes passionnés d’articles de lois et nous sommes très attentifs aux dernières tendances sur les podiums afin de vous fournir les dernières lois. Nous vous invitons à parcourir notre site afin de vous épanouir . Tentez l'expérience avec Sauvez la DDHC dès aujourd'hui.</p>
+          <p class="lead">Sauver la DDHC est votre source incontournable d’articles de lois concernant la DDHC, avec une touche d'originalité en plus. Nous souhaitons inspirer nos clients à tout d’abord respecter ces lois et les suivent à la lettre, avoir plus confiance en eux en connaissant les règles de vie et à se sentir bien, dans ce nouveau monde. Nous sommes passionnés d’articles de lois et nous sommes très attentifs aux dernières tendances sur les podiums afin de vous fournir les dernières lois. Nous vous invitons à parcourir notre site afin de vous épanouir . Tentez l'expérience avec Sauvez la DDHC dès aujourd'hui.</p>
+          <br>
+          <p class="lead">Auteur : Étudiants de ESTIAM Lyon</p>
         </div>
 </div>
 <script src="js/jquery.min.js"></script>
