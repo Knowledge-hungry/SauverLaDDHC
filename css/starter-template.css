@@ -54,3 +54,8 @@ body {
 	font-size: 30px;
 	display: none;
 }
+
+.change-color {
+font-family:FontAwesome;
+ color:red;
+}
