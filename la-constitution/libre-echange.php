@@ -71,7 +71,7 @@ session_start();
           <p>INDICE ARTICLE 15</p>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Aucun agent public n'est au-dessus du contrôle des simples citoyens. Même le Président a des comptes à rendre à la Nation quant à ses objectifs et ses méthodes dans l'exercice de ses fonctions.
-             <a href="javascript:ShowMessage();" onclick="ShowMessage();document.getElementById('FormWithALink2').submit();"><hr></a>
+             <a href="javascript:ShowMessage();" onclick="ShowMessage();document.getElementById('FormWithALink2').submit();">.</a>
           </p>
           <input type="hidden" name="SubmitHidden2"/>
           </form>
