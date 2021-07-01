@@ -76,6 +76,8 @@ $DDHCARTICLE= array("Art. 1. Les hommes naissent et demeurent libres et égaux e
 				  <div class="modal-content">
 				    <span class="close">&times;</span>
 				    <h1>Bravo ! Tu as réussis !</h1>
+						<p>Tu fais maintenant parti de la brave liste des révolutionnaires de l'époque des Lumières !</p>
+					  <p>Grâce à toi, en 1789 ils réussirent à diffuser la DDHC, et le brouillard commenca à se dissiper !</p>
 				  </div>
 
 				</div>

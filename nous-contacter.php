@@ -21,8 +21,8 @@ session_start();
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/index.php">DDHC-GAME</a></li>
-            <li><a href="nous-contacter.php">Nous Contacter</a></li>
+            <li ><a href="/index.php">DDHC-GAME</a></li>
+            <li class="active"><a href="nous-contacter.php">Nous Contacter</a></li>
             <li><a href="a-propos.php">A Propos</a></li>
 			<li class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Notre Constitution
