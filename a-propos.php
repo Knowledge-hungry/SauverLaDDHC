@@ -42,6 +42,7 @@ session_start();
 <div class="container">
 	      <div class="starter-template">
 	        <h1>Bootstrap starter template</h1>
+          <p class="lead">Sauver la DDHC est votre source incontournable d’articles de lois concernant sur la DDHC, avec une touche d'originalité en plus. Nous souhaitons inspirer nos clients à tout d’abord respecter ces lois et les suivent à la lettre, avoir plus confiance en eux en connaissant les règles de vie et à se sentir bien, dans ce nouveau monde. Nous sommes passionnés d’articles de lois et nous sommes très attentifs aux dernières tendances sur les podiums afin de vous fournir les dernières lois. Nous vous invitons à parcourir notre site afin de vous épanouir . Tentez l'expérience avec Sauvez la DDHC dès aujourd'hui.</p>
         </div>
 </div>
 <script src="js/jquery.min.js"></script>
