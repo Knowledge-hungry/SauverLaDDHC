@@ -144,7 +144,7 @@ $(function() {
 	var numberOfStars = 33;
 
 	for (var i = 0; i < numberOfStars; i++) {
-	  $('.modal').append('<div><i class="blob fas fa-star ' + i + '"></i></div>');
+	  $('.modal').append('<div><i class="fa fa-star blob ' + i + '"></i></div>');
 	}
 
 	animateText();
