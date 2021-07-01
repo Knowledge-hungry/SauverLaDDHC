@@ -98,7 +98,7 @@ $DDHCARTICLE= array("Art. 1. Les hommes naissent et demeurent libres et égaux e
 					?>
 	        <?php
 					if($HAS_WIN == 1){
-						echo "<script>YouHaveWin();</script>";
+						echo "<script>YouHaveWin()</script>";
 					}
 					 ?>
 		</div>
