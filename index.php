@@ -77,12 +77,12 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 					    // and print out the values
 					    //echo 'The value of $_SESSION['."'".$key."'".'] is '."'".$value."'".' <br />';
 							if($value == 1){
-								echo '<p class="lead">'.$DDHCARTICLE[$key].'</p><br>';
+								echo '<p class="lead" style="border-style: double;">'.$DDHCARTICLE[$key].'</p><br>';
 								$SCORE_USER += 1;
 							}
 					  }
 					}
-					echo '<p style="border-style: double;">Vous avez trouvé : '.$SCORE_USER.'/17 amendements</p>'
+					echo '<p>Vous avez trouvé : '.$SCORE_USER.'/17 amendements</p>'
 					?>
 	      </div>
 </div>
