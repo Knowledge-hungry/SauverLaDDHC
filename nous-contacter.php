@@ -42,6 +42,7 @@ session_start();
 <div class="container">
 	      <div class="starter-template">
 	        <h1>Bootstrap starter template</h1>
+          <p>Vous pouvez nous contacter par email ici : <a href="mailto:contact@sauveladdhc.webhop.me">contact@sauveladdhc.webhop.me</a></p>
         </div>
 </div>
 <script src="js/jquery.min.js"></script>
