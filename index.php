@@ -59,8 +59,13 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
       </div>
     </nav>
 <div class="container">
-	      <div class="starter-template">
-	        <h1>Bootstrap starter template</h1>
+	   <div class="starter-template">
+			<div class="jumbotron">
+				<div class="container">
+	        <h1>Le grand jeu de la DDHC</h1>
+					<p class="lead">Nous sommes en 1780 et la révolution fait rage. Les Lumières tente en vain d'éclairer le monde, mais ils ont perdus les fragments de la lumière.</p>
+					<p class="lead">Tentez de retrouver les fragments de la Déclaration des Droits de l'Homme et du Citoyen pour retrouver la lumière et terminer la révolution.</p>
+					<p>Bonne Chance !</p>
 					<?php
 					if(isset($_SESSION['ddhc_user']) == FALSE) {
 						  // create an array
@@ -77,7 +82,7 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 					    // and print out the values
 					    //echo 'The value of $_SESSION['."'".$key."'".'] is '."'".$value."'".' <br />';
 							if($value == 1){
-								echo '<p class="lead" style="border-style: double;">'.$DDHCARTICLE[$key].'</p><br>';
+								echo '<p style="border-style: double;">'.$DDHCARTICLE[$key].'</p><br>';
 								$SCORE_USER += 1;
 							}
 					  }
@@ -85,6 +90,8 @@ $DDHCARTICLE=array("Art. 1er. Les hommes naissent et demeurent libres et égaux 
 					echo '<p>Vous avez trouvé : '.$SCORE_USER.'/17 amendements</p>'
 					?>
 	      </div>
+			</div>
+		</div>
 </div>
 <script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
