@@ -48,7 +48,6 @@ session_start();
 <div class="container">
 	     <div class="starter-template">
 	        <h1>La Propriété</h1>
-          <p>INDICE ARTICLE 9</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La présomption d'innocence constitue l'une des composantes les plus précieuses de la résistance à l'oppression. Néanmoins, l'article 9 autorise l'incarcération préventive, à condition qu'elle soit "nécessaire pour s'assurer de sa personne". Rédaction ambiguë, et ingénieuse. Elle autorise l'arrestation pour éviter toute disparition intentionnelle du délinquant présumé, mais aussi pour garantir la protection d'un inculpé contre la vindicte populaire. L'incarcération d'un pédophile supposé, par exemple, a beaucoup moins pour but de l'empêcher de nuire, ou de fuir, que de le protéger contre la fureur des citoyens, souvent révoltés par ce type d'affaires. Par ailleurs, on ne peut manquer de s'étonner des libertés que prennent les journalistes avec la présomption d'innocence.
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink0').submit();"> Comment </a>
@@ -58,7 +57,6 @@ session_start();
           </form>
           <?php
           if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['8'] = 1;}?>
-          <p>INDICE ARTICLE 13</p>
           <form id="FormWithALink1" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Un article que nombre de journalistes et de chefs d'entreprises devraient méditer attentivement. Puisqu'une force publique s'avère nécessaire pour maintenir la paix civile (indispensable à la presse comme au commerce), et puisqu'il faut bien l'entretenir, alors il faut aussi payer des impôts. Ô surprise ! Apporter sa contribution à la richesse commune ne s'analyse pas du tout comme un devoir, mais bien comme un droit. Chaque citoyen devrait être fier de payer de l'impôt - d'autant plus fier qu'il en paie beaucoup - puisque c'est par l'impôt que nous disposons de routes, de ponts, d'écoles gratuites, d'hôpitaux efficaces, d'allocations familiales, d'une police peu corrompue, d'une armée peu putchiste, de musées, de forêts, bref, de toutes ces choses qui font qu'il est tout de même plus agréable de vivre en France qu'en Afghanistan ou en Côte d'Ivoire.
           Que penser, alors, d'un citoyen qui cherche à minimiser sa quote-part au Trésor public ? N'indique-t-il pas par là qu'il refuse de participer au pacte social ? Pourquoi autoriserait-on le rédacteur en chef d'un journal qui publie "cent astuces pour échapper au fisc" à bénéficier des soins aux urgences, ou d'une retraite payée par la Sécurité sociale ? Pourquoi accepterait-on que les enfants de tel grand patron, qui vitupère sans relâche contre Bercy, aient le droit de prendre place sur les bancs de l'école gratuite ? Inversement, dès lors qu'il paie l'impôt en France et qu'il participe à la richesse commune, pourquoi refuserait-on le droit de vote à un individu
@@ -68,7 +66,6 @@ session_start();
           </form>
           <?php
           if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['12'] = 1;}?>
-          <p>INDICE ARTICLE 17</p>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>L'expropriation n'est acceptable que dans des conditions précises, vu le caractère capital du droit de propriété.
              <a href="javascript:ShowMessage();" onclick="ShowMessage();document.getElementById('FormWithALink2').submit();"><img src="/img/propriete.jpg" height="120"/></a>

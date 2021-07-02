@@ -48,7 +48,6 @@ session_start();
 <div class="container">
 	     <div class="starter-template">
 	        <h1>Le Libre-Échange</h1>
-          <p>INDICE ARTICLE 10</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La foi, aux yeux de la Déclaration, relève de la vie privée, celle-là même que garantit l'article 2. Aux yeux du droit, la religion s'assimile à un hobby, comme la pêche à la ligne ou les collections de timbres. On peut croire, et
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink0').submit();">  même pratiquer</a>
@@ -58,7 +57,6 @@ session_start();
           </form>
           <?php
           if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['9'] = 1;}?>
-          <p>INDICE ARTICLE 11</p>
           <form id="FormWithALink1" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La liberté de la presse, si précieuse pour la transmission des opinions et la vivacité du débat politique, de même que la liberté d'expression, si souvent brandie à mauvais escient, connaissent en République des bornes précises (autre différence d'avec la démocratie, où n'importe quel âne peut revendiquer le droit de braire plus fort que son voisin). En France, l'apologie de crimes de guerre ou de crimes contre l'humanité (article 24 de la loi sur la liberté de la presse), la provocation à la rebellion ou la provocation au
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink1').submit();"> suicide </a>
@@ -68,7 +66,6 @@ session_start();
           </form>
           <?php
           if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['10'] = 1;}?>
-          <p>INDICE ARTICLE 15</p>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Aucun agent public n'est au-dessus du contrôle des simples citoyens. Même le Président a des comptes à rendre à la Nation quant à ses objectifs et ses méthodes dans l'exercice de ses fonctions.
              <a href="javascript:ShowMessage();" onclick="ShowMessage();document.getElementById('FormWithALink2').submit();">.</a>
