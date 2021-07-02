@@ -55,7 +55,6 @@ body {
 	display: none;
 }
 
-.change-color {
-font-family:FontAwesome;
- color:red;
+.fa-star {
+ color:#ffcc00 !important;
 }

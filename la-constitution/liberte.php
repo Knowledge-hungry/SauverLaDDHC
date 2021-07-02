@@ -91,7 +91,6 @@ $ANSW0=1762;
               echo '<script>ShowMessage();</script>';
             }
             else{
-              $_SESSION['ddhc_user']['3'] = 0;
               echo '<script>ShowRate();</script>';
             }
           }?>
