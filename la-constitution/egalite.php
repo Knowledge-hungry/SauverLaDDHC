@@ -49,25 +49,25 @@ session_start();
 	     <div class="starter-template">
 	        <h1>L'Égalité</h1>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>Les distinctions sociales ne peuvent être <a>fondées</a> que sur l’utilité commune.” (Art. 1 de la Déclaration des Droits de l’Homme et du Citoyen). A la relecture de la <a>seconde</a> phrase de cet article, nous avons mesuré à quel point notre projet s’inscrivait dans un principe de justice fondamental. Si les “<a>distinctions sociales</a>” ne sont pas le
+          <p>Les distinctions sociales ne peuvent être <a href="">fondées</a> que sur l’utilité commune.” (Art. 1 de la Déclaration des Droits de l’Homme et du Citoyen). A la relecture de la <a href="">seconde</a> phrase de cet article, nous avons mesuré à quel point notre projet s’inscrivait dans un principe de justice fondamental. Si les “<a href="">distinctions sociales</a>” ne sont pas le
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink0').submit();"> reflet </a>
-              d’une contribution à “l’utilité commune”, alors elles sont <a>illégitimes</a>.  En favorisant l’émancipation et la réussite de chacun selon son potentiel et ses aspirations, indépendamment de ses origines et de sa <a>naissance</a>, nous voulons rappeler le sens de cet Article 1, qui pose l’exigence de justice et d’égalité comme le socle préalable de notre modèle républicain.
+              d’une contribution à “l’utilité commune”, alors elles sont <a href="">illégitimes</a>.  En favorisant l’émancipation et la réussite de chacun selon son potentiel et ses aspirations, indépendamment de ses origines et de sa <a href="">naissance</a>, nous voulons rappeler le sens de cet Article 1, qui pose l’exigence de justice et d’égalité comme le socle préalable de notre modèle républicain.
             </p>
             <input type="hidden" name="SubmitHidden0"/>
           </form>
           <?php
           if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['0'] = 1;}?>
           <form id="FormWithALink1" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>Article pratiquement recopié de <a>Rousseau</a>. Puisque les députés représentent le peuple tout entier (et non leur circonscription, la majorité qui les a élus ou le parti dont ils portent les couleurs, voir ci-dessus article 3 de la DDHC 89), les lois qu'ils votent sont forcément l'expression de la volonté générale - et pas seulement l'expression de la volonté de la majorité. La loi doit tenir compte de l'<a>opinion minoritaire</a> et les gouvernants ne peuvent se prévaloir de leur majorité, même large, pour opprimer les groupes minoritaires. C'est ce qui oppose les <a>Etats</a> de
+          <p>Article pratiquement recopié de <a href="">Rousseau</a>. Puisque les députés représentent le peuple tout entier (et non leur circonscription, la majorité qui les a élus ou le parti dont ils portent les couleurs, voir ci-dessus article 3 de la DDHC 89), les lois qu'ils votent sont forcément l'expression de la volonté générale - et pas seulement l'expression de la volonté de la majorité. La loi doit tenir compte de l'<a href="">opinion minoritaire</a> et les gouvernants ne peuvent se prévaloir de leur majorité, même large, pour opprimer les groupes minoritaires. C'est ce qui oppose les <a href="">Etats</a> de
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink1').submit();"> droit </a>
-              au Troisième Reich, et la République à la simple <a>démocratie</a>. L'article réaffirme l'égalité devant la loi et en déduit l'<a>admissibilité</a> de tous les citoyens aux fonctions publiques, selon leur mérite. N'<a>importe</a> quel citoyen a le droit de briguer n'importe quel poste de <a>fonctionnaire</a>, ou de se présenter à n'importe quelle élection : les places seront attribuées sur concours ou selon le résultat des élections.
+              au Troisième Reich, et la République à la simple <a href="">démocratie</a>. L'article réaffirme l'égalité devant la loi et en déduit l'<a href="">admissibilité</a> de tous les citoyens aux fonctions publiques, selon leur mérite. N'<a href="">importe</a> quel citoyen a le droit de briguer n'importe quel poste de <a href="">fonctionnaire</a>, ou de se présenter à n'importe quelle élection : les places seront attribuées sur concours ou selon le résultat des élections.
             </p>
             <input type="hidden" name="SubmitHidden1"/>
           </form>
           <?php
           if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['5'] = 1;}?>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>Les citoyens peuvent participer à l'<a>élaboration</a> de la loi de finance. Il y a même de quoi se demander, avec cet <a>article</a>, si les citoyens ne seraient pas fondés à refuser de payer une fraction de l'impôt au motif de l'<a>illégalité</a> de l'emploi de certains fonds publics. Par exemple, les habitants d'une municipalité convaincue de corruption peuvent-ils refuser de payer la <a>fraction</a> d'impôts locaux correspondant au
+          <p>Les citoyens peuvent participer à l'<a href="">élaboration</a> de la loi de finance. Il y a même de quoi se demander, avec cet <a href="">article</a>, si les citoyens ne seraient pas fondés à refuser de payer une fraction de l'impôt au motif de l'<a href="">illégalité</a> de l'emploi de certains fonds publics. Par exemple, les habitants d'une municipalité convaincue de corruption peuvent-ils refuser de payer la <a href="">fraction</a> d'impôts locaux correspondant au
              <a href="javascript:ShowMessage();" onclick="ShowMessage();document.getElementById('FormWithALink2').submit();">pourcentage</a>
              des pots-de-vin dans le budget municipal ? N'ont-ils pas, en effet, "le droit [...] d'en déterminer la quotité" ? La phrase ne présente aucune ambiguité.
           </p>
@@ -76,9 +76,9 @@ session_start();
           <?php
           if (isset($_POST['SubmitHidden2'])) {$_SESSION['ddhc_user']['13'] = 1;}?>
           <form id="FormWithALink3" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>Article d'interprétation difficile : il existe assurément des dictatures qui présentent une "Constitution" écrite - ainsi l'<a>URSS</a> de Staline. Il faut ici entendre "Constitution" au
+          <p>Article d'interprétation difficile : il existe assurément des dictatures qui présentent une "Constitution" écrite - ainsi l'<a href="">URSS</a> de Staline. Il faut ici entendre "Constitution" au
              <a href="javascript:ShowMessage();" onclick="ShowMessage();document.getElementById('FormWithALink3').submit();">sens</a>
-             de "pouvoir politique légitime". Cet article recevra <a>explication</a> dans le cours sur la justice.
+             de "pouvoir politique légitime". Cet article recevra <a href="">explication</a> dans le cours sur la justice.
           </p>
           <input type="hidden" name="SubmitHidden3"/>
           </form>
