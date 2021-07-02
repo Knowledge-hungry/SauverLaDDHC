@@ -53,7 +53,6 @@ $ANSW0=1762;
 <div class="container">
 	     <div class="starter-template">
 	        <h1>La Liberté</h1>
-          <p>INDICE ARTICLE 2</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La protection de la vie privée a été affirmée en 1948 par la déclaration universelle des droits de
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink0').submit();"> l’Homme des Nations Unies</a> (art 12)
@@ -62,7 +61,6 @@ $ANSW0=1762;
           </form>
           <?php
           if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['1'] = 1;}?>
-          <p>INDICE ARTICLE 3</p>
           <form id="FormWithALink1" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La souveraineté se définit, en droit, comme la détention de l’<a href="javascript:;" onclick="">autorité suprême</a>, c’est-à-dire d’un pouvoir absolu (<U>dont tous dépendent</U>) et inconditionné (qui ne dépend de qui que ce soit). Dans les régimes
               <a> despotiques</a>, la souveraineté est le plus souvent détenue par <a href="javascript:;" onclick="">un seul</a> homme. Dans les démocraties, elle est détenue <a href="javascript:;" onclick="">par le peuple</a>, constitué en un corps politique, la Nation : on parle dès lors de <a href="javascript:;" onclick="">souveraineté nationale</a>. Dans ce cadre, la souveraineté ne peut être exercée par un <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink1').submit();">despote</a>, ni divisée entre plusieurs fractions du <a>peuple</a> elle est détenue par un être <U>collectif et indivisible</U>, distinct des individus qui la composent. Mais les contraintes de l’<a>exercice</a> du pouvoir impliquent que cette souveraineté soit déléguée : le peuple, bien que <a>constitué</a> en <U>corps politique</U>, ne peut en effet délibérer directement sur les affaires <a>publiques</a>. Cette mission est donc confiée à des représentants élus, dont les décisions constituent l’expression de la volonté générale.</p>
@@ -70,7 +68,6 @@ $ANSW0=1762;
           </form>
           <?php
           if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['2'] = 1;}?>
-          <p>INDICE ARTICLE 4</p>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La loi, arbitre de l'exercice de cette liberté <a href="javascript:;" onclick="">individuelle</a>. Les rédacteurs de la déclaration ont fait le choix de confier à la loi le rôle de déterminer les limites à l'exerce de la liberté de l'article 4. Ce choix se place dans l'<U>idéologie politique</U> de l'époque, représentée notamment pas <U>Rousseau</U> et marque aussi encore une fois la volonté d'une liberté égale pour tous. Le choix de la loi se place dans une logique qui se retrouve tout au long de la déclaration de 1789.</p>
           <input type="hidden" name="SubmitHidden2"/>
