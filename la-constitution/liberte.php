@@ -1,5 +1,6 @@
 <?php
 session_start();
+$ANSW0="1762";
 ?>
 <html>
 <head>
@@ -46,7 +47,7 @@ session_start();
     </nav>
 <div class="container">
 	     <div class="starter-template">
-	        <h1>Bootstrap starter template</h1>
+	        <h1>La Liberté</h1>
           <p>INDICE ARTICLE 2</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La protection de la vie privée a été affirmée en 1948 par la déclaration universelle des droits de
@@ -66,11 +67,22 @@ session_start();
           if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['2'] = 1;}?>
           <p>INDICE ARTICLE 4</p>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>La loi, arbitre de l'exercice de cette liberté <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink2').submit();">individuelle</a>. Les rédacteurs de la déclaration ont fait le choix de confier à la loi le rôle de déterminer les limites à l'exerce de la liberté de l'article 4. Ce choix se place dans l'idéologie politique de l'époque, représentée notamment pas Rousseau et marque aussi encore une fois la volonté d'une liberté égale pour tous. Le choix de la loi se place dans une logique qui se retrouve tout au long de la déclaration de 1789.</p>
+          <p>La loi, arbitre de l'exercice de cette liberté <a href="javascript:;" onclick="">individuelle</a>. Les rédacteurs de la déclaration ont fait le choix de confier à la loi le rôle de déterminer les limites à l'exerce de la liberté de l'article 4. Ce choix se place dans l'<U>idéologie politique</U> de l'époque, représentée notamment pas <U>Rousseau<U> et marque aussi encore une fois la volonté d'une liberté égale pour tous. Le choix de la loi se place dans une logique qui se retrouve tout au long de la déclaration de 1789.</p>
           <input type="hidden" name="SubmitHidden2"/>
           </form>
           <?php
           if (isset($_POST['SubmitHidden2'])) {$_SESSION['ddhc_user']['3'] = 1;}?>
+          <hr>
+          <form id="FormQuestion" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
+            <p>Quelle est l'année de parution du contrat déterminant la relation Etat-Citoyen ?</p>
+            <input type="text" name="FormAnswer" value="">
+            <input type="submit" value="Je Valide">
+          </form>
+          <?php
+          if (isset($_POST['FormAnswer']) == $ANSW0) {
+            $_SESSION['ddhc_user']['3'] = 1;
+            echo '<script>ShowMessage();</script>';
+          }?>
       </div>
 </div>
 <script src="/js/jquery.min.js"></script>

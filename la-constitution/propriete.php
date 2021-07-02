@@ -47,7 +47,7 @@ session_start();
     </nav>
 <div class="container">
 	     <div class="starter-template">
-	        <h1>Bootstrap starter template</h1>
+	        <h1>La Propriété</h1>
           <p>INDICE ARTICLE 9</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La présomption d'innocence constitue l'une des composantes les plus précieuses de la résistance à l'oppression. Néanmoins, l'article 9 autorise l'incarcération préventive, à condition qu'elle soit "nécessaire pour s'assurer de sa personne". Rédaction ambiguë, et ingénieuse. Elle autorise l'arrestation pour éviter toute disparition intentionnelle du délinquant présumé, mais aussi pour garantir la protection d'un inculpé contre la vindicte populaire. L'incarcération d'un pédophile supposé, par exemple, a beaucoup moins pour but de l'empêcher de nuire, ou de fuir, que de le protéger contre la fureur des citoyens, souvent révoltés par ce type d'affaires. Par ailleurs, on ne peut manquer de s'étonner des libertés que prennent les journalistes avec la présomption d'innocence.

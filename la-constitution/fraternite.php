@@ -47,7 +47,7 @@ session_start();
     </nav>
 <div class="container">
 	     <div class="starter-template">
-	        <h1>Bootstrap starter template</h1>
+	        <h1>La Fraternité</h1>
           <p>INDICE ARTICLE 5</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La Déclaration, on vient de le voir, garantit la liberté, et lui pose aussitôt des bornes légales. Ce schéma "affirmation-limitation" se retrouve dans de nombreux autres articles (notamment 7, 10, 11 et 17) ; mais la Loi elle-même a des limites. Le Parlement ne peut pas interdire tout et n'importe quoi, mais seulement les "actions nuisibles à la société".

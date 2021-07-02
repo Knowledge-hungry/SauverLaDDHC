@@ -47,7 +47,7 @@ session_start();
     </nav>
 <div class="container">
 	     <div class="starter-template">
-	        <h1>Bootstrap starter template</h1>
+	        <h1>L'Égalité</h1>
           <p>INDICE ARTICLE 1</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>Les distinctions sociales ne peuvent être fondées que sur l’utilité commune.” (Art. 1 de la Déclaration des Droits de l’Homme et du Citoyen). A la relecture de la seconde phrase de cet article, nous avons mesuré à quel point notre projet s’inscrivait dans un principe de justice fondamental. Si les “distinctions sociales” ne sont pas le

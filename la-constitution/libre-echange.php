@@ -47,7 +47,7 @@ session_start();
     </nav>
 <div class="container">
 	     <div class="starter-template">
-	        <h1>Bootstrap starter template</h1>
+	        <h1>Le Libre-Échange</h1>
           <p>INDICE ARTICLE 10</p>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
           <p>La foi, aux yeux de la Déclaration, relève de la vie privée, celle-là même que garantit l'article 2. Aux yeux du droit, la religion s'assimile à un hobby, comme la pêche à la ligne ou les collections de timbres. On peut croire, et
