@@ -49,18 +49,18 @@ session_start();
 	     <div class="starter-template">
 	        <h1>Le Libre-Échange</h1>
           <form id="FormWithALink0" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>La foi, aux yeux de la Déclaration, relève de la vie privée, celle-là même que garantit l'article 2. Aux yeux du droit, la religion s'assimile à un hobby, comme la pêche à la ligne ou les collections de timbres. On peut croire, et
+          <p>La foi, aux yeux de la Déclaration, <a>relève de la vie privée</a>, celle-là même que garantit l'article 2. Aux yeux du droit, la religion s'assimile à un hobby, comme la pêche à la ligne ou les collections de timbres. On peut croire, et
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink0').submit();">  même pratiquer</a>
-              avec ferveur, à condition de ne pas troubler l'ordre public : un préfet peut ainsi autoriser une procession, par exemple, exactement de la même manière qu'il autoriserait une manifestation de la CGT.
+              avec ferveur, à condition de ne pas troubler l'ordre public : un <a>préfet</a> peut ainsi autoriser une procession, par exemple, exactement de la même manière qu'il autoriserait une <a>manifestation</a> de la CGT.
             </p>
             <input type="hidden" name="SubmitHidden0"/>
           </form>
           <?php
           if (isset($_POST['SubmitHidden0'])) {$_SESSION['ddhc_user']['9'] = 1;}?>
           <form id="FormWithALink1" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>La liberté de la presse, si précieuse pour la transmission des opinions et la vivacité du débat politique, de même que la liberté d'expression, si souvent brandie à mauvais escient, connaissent en République des bornes précises (autre différence d'avec la démocratie, où n'importe quel âne peut revendiquer le droit de braire plus fort que son voisin). En France, l'apologie de crimes de guerre ou de crimes contre l'humanité (article 24 de la loi sur la liberté de la presse), la provocation à la rebellion ou la provocation au
+          <p>La liberté de la presse, si précieuse pour la transmission des opinions et la vivacité du débat politique, de même que la liberté d'expression, si souvent brandie à mauvais escient, connaissent en <a>République</a> des bornes précises (autre différence d'avec la démocratie, où n'importe quel âne peut revendiquer le droit de braire plus fort que son voisin). En France, <a>l'apologie</a> de crimes de guerre ou de crimes contre l'humanité (article 24 de la loi sur la liberté de la presse), la provocation à la rebellion ou la provocation au
               <a href="javascript:;" onclick="ShowMessage();document.getElementById('FormWithALink1').submit();"> suicide </a>
-              constituent des délits réprimés par la loi. On commence par écarter du débat politique les fous sanguinaires, les fanatiques de toutes confessions et les enragés qui se croient très "purs" sous prétexte qu'ils "ne transigeront pas", puis on peut délibérer entre personnes pondérées et responsables. Censure ? Sans doute ; mais du moins pose-t-elle une limite inférieure au débat politique, lequel ne peut pas, en principe, déraper vers le niveau du "Jerry Springer Show".
+              constituent des délits réprimés par la loi. On <a>commence</a> par écarter du débat politique les <a>fous sanguinaires</a>, les fanatiques de toutes confessions et <U>les enragés</U> qui se croient très "purs" sous prétexte qu'ils "ne transigeront pas", puis on peut délibérer entre personnes pondérées et responsables. Censure ? Sans doute ; mais du moins pose-t-elle une limite inférieure au <a>débat politique</a>, lequel ne peut pas, en principe, déraper vers le niveau du "Jerry Springer Show".
             </p>
             <input type="hidden" name="SubmitHidden1"/>
           </form>
