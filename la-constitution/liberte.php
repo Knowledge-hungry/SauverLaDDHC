@@ -1,6 +1,6 @@
 <?php
 session_start();
-$ANSW0="1762";
+$ANSW0=1762;
 ?>
 <html>
 <head>
@@ -12,6 +12,11 @@ $ANSW0="1762";
   <script>
     function ShowMessage(){
       alert("Indice trouvé !");
+    }
+  </script>
+  <script>
+    function ShowRate(){
+      alert("Raté !");
     }
   </script>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -67,7 +72,7 @@ $ANSW0="1762";
           if (isset($_POST['SubmitHidden1'])) {$_SESSION['ddhc_user']['2'] = 1;}?>
           <p>INDICE ARTICLE 4</p>
           <form id="FormWithALink2" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'], ENT_QUOTES); ?>" method="post">
-          <p>La loi, arbitre de l'exercice de cette liberté <a href="javascript:;" onclick="">individuelle</a>. Les rédacteurs de la déclaration ont fait le choix de confier à la loi le rôle de déterminer les limites à l'exerce de la liberté de l'article 4. Ce choix se place dans l'<U>idéologie politique</U> de l'époque, représentée notamment pas <U>Rousseau<U> et marque aussi encore une fois la volonté d'une liberté égale pour tous. Le choix de la loi se place dans une logique qui se retrouve tout au long de la déclaration de 1789.</p>
+          <p>La loi, arbitre de l'exercice de cette liberté <a href="javascript:;" onclick="">individuelle</a>. Les rédacteurs de la déclaration ont fait le choix de confier à la loi le rôle de déterminer les limites à l'exerce de la liberté de l'article 4. Ce choix se place dans l'<U>idéologie politique</U> de l'époque, représentée notamment pas <U>Rousseau</U> et marque aussi encore une fois la volonté d'une liberté égale pour tous. Le choix de la loi se place dans une logique qui se retrouve tout au long de la déclaration de 1789.</p>
           <input type="hidden" name="SubmitHidden2"/>
           </form>
           <?php
@@ -79,9 +84,16 @@ $ANSW0="1762";
             <input type="submit" value="Je Valide">
           </form>
           <?php
-          if (isset($_POST['FormAnswer']) == $ANSW0) {
-            $_SESSION['ddhc_user']['3'] = 1;
-            echo '<script>ShowMessage();</script>';
+          if (isset($_POST['FormAnswer'])) {
+            $Submited = $_POST['FormAnswer'];
+            if($Submited == $ANSW0){
+              $_SESSION['ddhc_user']['3'] = 1;
+              echo '<script>ShowMessage();</script>';
+            }
+            else{
+              $_SESSION['ddhc_user']['3'] = 0;
+              echo '<script>ShowRate();</script>';
+            }
           }?>
       </div>
 </div>
